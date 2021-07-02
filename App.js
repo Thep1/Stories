@@ -2,8 +2,8 @@ import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { createAppContainer} from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs'
-import WriteStory from './screens/writestory'
-import ReadStory from './screens/readstory'
+import WriteStory from './writestory'
+import ReadStory from './readstory'
 export default class App extends React.Component {
   render()
   {
